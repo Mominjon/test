@@ -1,0 +1,64 @@
+header {
+    background-color: #2A8086;
+    box-shadow: 0px 2px 5px rgb(150, 149, 149);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    padding: 20px 0px;
+    h2 {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34.8387px;
+        line-height: 41px;
+        color: #0D444D;
+    }
+    .brend-logo {
+        position: absolute;
+        width: 70px;
+        height: 25px;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+    .nav-link {
+        margin-left: 40px;
+        display: flex;
+        li {
+            margin-top: 5%;
+        }
+        a {
+            font-family: "Roboto Mono";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #C5E1E6;
+            padding: 0px 20px;
+            padding-bottom: 5px;
+            transition: border 0.2s ;
+            
+        }
+        a:hover {
+            border-bottom: 2px solid #C5E1E6;
+        }
+        
+    }
+    .right-link {
+        margin-left: 25%;
+        a:hover {
+            border: none;
+        }
+        :nth-child(1) {
+            margin-top: 10px;
+        }
+        :nth-child(2) {
+            margin-top: -5px;
+        }
+    }
+}

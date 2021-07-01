@@ -1,0 +1,25 @@
+@import './block/general';
+main {
+    margin-top: -0px;
+    padding-top: 100px;
+}
+hr {
+    border: 0.957858px solid #E5EAEB;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto';
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+

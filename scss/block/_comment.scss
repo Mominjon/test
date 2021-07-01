@@ -1,0 +1,108 @@
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #0D444D;
+    }
+    a {
+        display: flex;
+        width: 200px;
+        border: 1.5px solid #19707D;
+        box-sizing: border-box;
+        border-radius: 100px;
+        padding: 8px 15px 8px 20px;
+        p {
+            margin-left: 10px;
+        }
+    }
+}
+.comment-content {
+    ul {
+        display: flex;
+        .comment-bg {
+            margin-left: -10px;
+            margin-top: 20px;
+        }
+        .comment-item {
+            margin-left: 50px;
+            margin-top: -200px;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #B3B3B3;
+        }
+        .comment-item-2 {
+            font-family: Roboto;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            margin-left: 50px;
+            color: #2D2D2D;
+            width: 220px;
+            margin-top: 10px;
+            
+        }
+        li {
+            div {
+                margin-top: 90px;
+                display: flex;
+                margin-left: 40px;
+                h4 {
+                    margin-top: 6%;
+                    margin-left: 4%;
+                }
+            }
+        }
+    }
+}
+.animals-list {
+    margin-top: 40px;
+    h2 {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #0D444D;
+    }
+    ul {
+        display: flex;
+        margin-top: 80px;
+        li {
+            margin-right: 90px;
+            img {
+                width: 110px;
+            }
+            h5 {
+                font-family: "Roboto Mono";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #2D2D2D;
+            }
+            .old {
+                width: 15px;
+                margin-top: 20px;
+               
+            }
+            .new {
+                width: 15px;
+                margin-top: 20px;
+               
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.intro {
+    background-image: url(../img/intro-bg-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    background-size: cover;
+    padding-bottom: 50px;
+    
+} 
+.intro-wrapper {
+    padding-top: 80px;
+    display: flex;
+    .intro-content {
+        h1 {
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 64px;
+            line-height: 76px;
+            color: #F3F7F8;
+            width: 600px;
+            span {
+                font-weight: bold;
+            }
+        }
+        p {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 30px;
+            color: #F3F7F8;
+            width: 480px;
+            padding-bottom: 50px;
+        }
+        a {
+            font-family: "Roboto Mono";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: -0.05em;
+            text-transform: uppercase;
+            padding: 14px 85px;
+            color: #0D444D;
+
+            background: #FFFFFF;
+            box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+            border-radius: 100px;
+        }
+    }
+    .intro-img {
+        padding-bottom: 200px;
+        
+    }
+    .intro-img:nth-child(1){
+        position: relative;
+    }
+    .intro-mini-logo {
+        position: absolute;
+        margin-left: -20%;
+        margin-top: 13%;
+        cursor: pointer;
+    }
+}

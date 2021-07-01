@@ -1,0 +1,53 @@
+.howwork-heder {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #0D444D;
+}
+.howwork {
+    background-image: url(/img/howwork-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+
+.howwork-content {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 50px ;
+    :nth-child(1) {
+        margin-top: 15px;
+        margin-left: 60px;
+        p {
+            margin-left: -10px;
+        }
+    }
+    li {
+        margin-left: 200px;
+        padding-bottom: 700px;
+    }
+    img {
+        position: relative;
+        padding: 50px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.06);
+        border-radius: 10px;
+        border-radius: 50%;
+    }
+    p {
+        position: absolute;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #0D444D;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+}
